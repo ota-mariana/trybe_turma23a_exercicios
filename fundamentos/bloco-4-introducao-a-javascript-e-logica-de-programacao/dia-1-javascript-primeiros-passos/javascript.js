@@ -8,3 +8,10 @@ console.log('O resultado da multiplicação é: ' + (a*b));
 console.log('O resultado da divisão é: ' + (a/b));
 console.log('O resultado do módulo é: ' + (a%b));
 
+//Exercício 2 - Retornar o maior de dois números.
+if (a > b) {
+    console.log('O maior número é: ' + a);
+} else {
+    console.log('O maior número é: ' + b);
+}
+
