@@ -1,6 +1,7 @@
 //Ecxercício 1 - Fazer cinco programas utilizando a operação aritmética básica.
 const a = 40;
 const b = 10;
+const c = 150;
 
 console.log('O resultado da soma é: ' + (a+b));
 console.log('O resultado da subtração é: ' + (a-b));
@@ -13,5 +14,14 @@ if (a > b) {
     console.log('O maior número é: ' + a);
 } else {
     console.log('O maior número é: ' + b);
+}
+
+//Exercício 3 - Retornar o maior de três números.
+if (a > b && a > c) {
+    console.log('O maior número é: ' + a);
+} else if (b > a && b > c) {
+    console.log('O maior número é: ' + b);
+} else {
+    console.log('O maior número é: ' + c);
 }
 
