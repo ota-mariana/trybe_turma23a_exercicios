@@ -42,6 +42,15 @@ const angleTri2 = 70;
 const angleTri3 = 80;
 
 const sumOfAngles = angleTri1 + angleTri2 + angleTri3;
+const allAnglesPositive = angleTri1 > 0 && angleTri2 > 0 && angleTri3 > 0;
+
+if (allAnglesPositive) {
+    if (sumOfAngles === 180) {
+        console.log('True');
+    }
+} else {
+    console.log('Error');
+}
 
 
 //Exercício 8 - Retornar true se pelo menos uma das três constantes for par ou false, caso contrário.
