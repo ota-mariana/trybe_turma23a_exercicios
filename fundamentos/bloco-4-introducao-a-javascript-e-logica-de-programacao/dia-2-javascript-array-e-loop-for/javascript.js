@@ -24,3 +24,22 @@ if (average > 20) {
 } else {
     console.log('Valor menor ou igual a 20');
 }
+
+//Exercício 5 - Imprima o maior valor contido no array utilizando for.
+for (let index = 0; index < numbers.length; index += 1) {
+    
+}
+
+//Exercício 6 - Descubra quantos valores impares existem no array e imprima o resultado.
+let oddValue = 0;
+
+for (let index = 0; index < numbers.length; index += 1) {
+    if (numbers[index] % 2 === 1) {
+        oddValue += 1;
+    }
+}
+if (oddValue === 0) {
+    console.log('No odd value found');
+} else {
+    console.log('Number of odd values:' , oddValue);
+}
