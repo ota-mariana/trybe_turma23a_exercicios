@@ -7,9 +7,13 @@ for (let index = 0; index < numbers.length; index += 1) {
 }
 
 //Exercício 2 - Imprimir o resultado da soma de todos os valores.
-let soma = 0;
+let sum = 0;
 
 for (let index = 0; index < numbers.length; index += 1) {
-    soma = soma + numbers[index];
+    sum = sum + numbers[index];
 }
-    console.log('The sum result is:' , soma);
+    console.log('The sum result is:' , sum);
+
+//Exercício 3 - Calcular e imprimir a média aritmética dos valores do array.
+let average = sum / numbers.length;
+console.log('The average is:' , average);
