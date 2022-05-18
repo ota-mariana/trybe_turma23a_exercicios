@@ -52,6 +52,24 @@ if (allAnglesPositive) {
     console.log('Error');
 }
 
+//Exercício 7 - Converter as notas em porcentagem de 0 a 100 em conceitos de A a F.
+const grade = 85;
+
+if (grade < 0 || grade > 100) {
+    console.log('Error');
+} else if (grade >= 90) {
+    console.log('A'); 
+} else if (grade >= 80) {
+    console.log('B');
+} else if (grade >= 70) {
+    console.log('C');
+} else if (grade >= 60) {
+    console.log('D');
+} else if (grade >= 50) {
+    console.log('E');
+} else {
+    console.log('F');
+} 
 
 //Exercício 8 - Retornar true se pelo menos uma das três constantes for par ou false, caso contrário.
 const number1 = 15;
