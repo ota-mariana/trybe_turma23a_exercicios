@@ -17,3 +17,10 @@ for (let index = 0; index < numbers.length; index += 1) {
 //Exercício 3 - Calcular e imprimir a média aritmética dos valores do array.
 let average = sum / numbers.length;
 console.log('The average is:' , average);
+
+//Exercício 4 - Imprimir a mensagem de acordo com o resultado do exercício anterior.
+if (average > 20) {
+    console.log('Valor maior que 20');
+} else {
+    console.log('Valor menor ou igual a 20');
+}
