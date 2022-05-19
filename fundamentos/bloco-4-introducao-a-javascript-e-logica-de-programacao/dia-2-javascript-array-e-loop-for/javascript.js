@@ -26,9 +26,14 @@ if (average > 20) {
 }
 
 //Exercício 5 - Imprima o maior valor contido no array utilizando for.
-for (let index = 0; index < numbers.length; index += 1) {
-    
+let higherNumber = numbers[0];
+
+for (let index = 1; index < numbers.length; index += 1) {
+    if (numbers[index] > higherNumber) {
+        higherNumber = numbers[index];
+    }
 }
+    console.log('The biggest number is:' , higherNumber);
 
 //Exercício 6 - Descubra quantos valores impares existem no array e imprima o resultado.
 let oddValue = 0;
