@@ -59,3 +59,11 @@ for (let index = 1; index < numbers.length; index += 1) {
 }
 
     console.log('The smallest number is:' , smallestNumber);
+
+//Exercício 8 - Criar um array que vai de 1 a 25 e imprimir utilizando o for;
+let arrayCreated = [];
+
+for (let index = 1; index <= 25; index += 1) {
+    arrayCreated.push(index);
+}
+console.log(arrayCreated);
