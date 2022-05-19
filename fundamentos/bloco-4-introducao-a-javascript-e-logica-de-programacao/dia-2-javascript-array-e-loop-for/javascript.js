@@ -48,3 +48,14 @@ if (oddValue === 0) {
 } else {
     console.log('Number of odd values:' , oddValue);
 }
+
+//Exercício 7 - Imprima o menor valor contido no array utilizando for.
+let smallestNumber = numbers[0];
+
+for (let index = 1; index < numbers.length; index += 1) {
+    if (numbers[index] < smallestNumber) {
+        smallestNumber = numbers[index]
+    }
+}
+
+    console.log('The smallest number is:' , smallestNumber);
